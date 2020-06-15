@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 class="headline">Selfie JS </h1>
+    </header>
+    <main>
+        <div class="top-container">
+            <video id="video">CONNECTION FAILED</video>
+            <button id="photo-button" class="btn btn-dark">TAKE A PICTURE</button>
+            <select id="photo-filter" class="select">
+                <option value="none">STANDART</option>
+                <option value="grayscale(100%)">GREY</option>
+                <option value="sepia(100%)">SEPIA</option>
+                <option value="invert(100%)">INIT</option>
+                <option value="hue-rotate(90deg)">HIGH</option>
+                <option value="blur(10px)">BLUR</option>
+                <option value="contrast(200%)">CONTRAST</option>
+            </select>
+            <button id="clear-button" class="btn btn-light">Clear</button>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="bottom-container">
+            <div id="photos"></div>
+        </div>
+    </main>
+    <footer>
+        <h2>KEEP SMILING</h2>
+
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
