@@ -1,15 +1,14 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
     font-family: Fira Sans, serif;
     font-weight: 400;
     background-color: #191919;
     color: #fff;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    height: 100%;
 }
 header{
-    margin: 0 auto;
     background-color: #F25c27;
     text-align: center;
     border: 3px outset #ff8c5f;
@@ -17,26 +16,21 @@ header{
 .headline{
     font-size: 3em;
     color: #fff;
-    letter-spacing: 0.87px;
+    letter-spacing: 1.87px;
     background-color: #F25c27;
-    text-shadow: 1.78px 2.23px 3.49px #191919;
-    text-transform: uppercase;
+    text-shadow: 1.78px 2.73px 3.49px #191919;
     animation-name: xy;
-    animation-duration: 5s;
+    animation-duration: 7.7s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 @keyframes xy{
     33% {margin-right: 0.8%;}
-    100% {margin-left: 1%; color: black;}
+    100% {margin-left: 1%; color: #191919;}
 }
 .top-container {
   width: 500px;
   margin: 30px auto;
-}
-.navbar h1 {
-  margin: 0;
-  text-align: center;
 }
 .btn {
   display: block;
@@ -47,7 +41,7 @@ header{
 .btn-dark {
   background: #191919;
   color: #fff;
-  border: 2px solid #679;
+  border: 2px solid #fff;
 }
 .btn-light {
   background: #f3f3f3;
@@ -60,7 +54,7 @@ header{
   color: #fff;
   padding: 3px;
   width: 100%;
-  border: 2px solid #679;
+  border: 2px solid #fff;
   margin-bottom: 10px;
 }
 .bottom-container {
@@ -71,7 +65,7 @@ header{
 #photos {
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  grid-gap: 1%;
+  grid-gap: 0.25%;
 }
 #photos img {
   width: 100%;
@@ -84,7 +78,7 @@ footer{
     font-size: 2em;
     background-color: #F25c27;
     color: #fff;
-    text-shadow: 1.78px 2.23px 3.49px #191919;
+    text-shadow: 2.78px 2.23px 3.49px #191919;
     text-align: center;
-    margin-bottom: 0
+    height: 35vh;
 }
