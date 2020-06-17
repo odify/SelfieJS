@@ -1,4 +1,4 @@
-// HAVE FUN WITH SOME IMAGE_FILTERS...
+// HAVE FUN WITH SOME IMAGE_FILTERS
 
 let width = 500, 
     height = 0, 
@@ -42,6 +42,7 @@ navigator.mediaDevices.getUserMedia({video: true, audio: false})
     takePicture();
 
     e.preventDefault();
+    
 }, false);
 
   photoFilter.addEventListener('change', function(e) {

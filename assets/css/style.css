@@ -18,15 +18,15 @@ header{
     color: #fff;
     letter-spacing: 1.87px;
     background-color: #F25c27;
-    text-shadow: 1.78px 2.73px 3.49px #191919;
     animation-name: xy;
     animation-duration: 7.7s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 @keyframes xy{
-    33% {margin-right: 0.8%;}
-    100% {margin-left: 1%; color: #191919;}
+  33% {margin-right: 1%; text-shadow: 1.77px 1.22px 3.44px #191919;}
+  66% {margin-left: 1%; text-shadow: 2.77px 2.22px 3.44px #191919;}
+  77% {margin-left: 1%; color: black; text-shadow: 1.77px 3.22px 2.44px #fff;}
 }
 .top-container {
   width: 500px;
